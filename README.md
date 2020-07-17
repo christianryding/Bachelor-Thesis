@@ -1,2 +1,7 @@
-# Bachelor-Thesis
- 
+# Jails vs Docker: A performance comparison of different container technologies
+
+Abstract [en]
+
+Virtualization is used extensively by Enterprise IT architecture and cloud computing, it is used to provide customers a part of their hardware resources as a service. Container technology is the new generation of virtualization and provides performance benefits due to less overhead. Earlier research has compared different container technologies regarding their performance, including Docker which is the most popular container technology. Most of this research has been focusing on Linux based container technologies. Even though there is interest in knowing how other container technologies under different operating systems perform. In this study we explore the performance of Docker in contrast to the performance of a contending container technology named Jails. We present how well each container technology performs running one or multiple containers, in the areas of CPU, memory, read from disk, write to disk, network and startup time efficiency. The comparison was done using collected statistics from different benchmarking tools. Results from this study have shown that Docker is utilizing shared resources and has better stability compared to Jails. We also discuss what unexplored benefits Docker and Jails can have by implementing each other’s unique features. Future work could consist of writing to disk or reading from disk performance tests under one common filesystem, e.g., ZFS file system.
+
+[Link to thesis](http://www.diva-portal.org/smash/record.jsf?dswid=-5675&pid=diva2%3A1453017&c=2&searchType=SIMPLE&language=no&query=christian+ryding&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=all)
